@@ -1,0 +1,52 @@
+body {
+  margin: 0 auto;
+}
+
+.dashboardSection {
+  height: 20em;
+  background-image: url("https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login-top.png");
+}
+
+.loginSection {
+  height: 20em;
+  padding-top: 2em;
+  padding-bottom: 10em;
+  background-image: url("https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login.png");
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 14em;
+}
+
+.inputDivs {
+  text-align: center;
+  color: #fff;
+}
+
+input {
+  height: 33px;
+  border-radius: 0.5em;
+  margin-left: 1em;
+  width: 218px;
+  outline: none;
+}
+
+button {
+  height: 2em;
+  background: #569E0D;
+  color: #fff;
+  font-weight: bold;
+  width: 5em;
+  border-radius: .3em;
+  margin: 1em 0 1em 14.5em;
+  border: none;
+  text-shadow: 1px 1px 2px black;
+}
+
+.error {
+  color: red;
+  margin-top: .5em;
+  padding-left: 5.5em;
+}
